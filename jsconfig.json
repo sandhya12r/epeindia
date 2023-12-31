@@ -2,7 +2,8 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./src/*"],
-      "@/resources/*": ["./src/app/resources/*"]
+      "@/resources/*": ["./src/app/resources/*"],
+      "resources/*": ["./src/app/resources/*"]
     }
   }
 }

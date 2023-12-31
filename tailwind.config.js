@@ -14,8 +14,6 @@ module.exports = {
         'header-gradient': 'linear-gradient(160deg, #b8f7f7, #fff, #f2d7f2);',
         'banner-2': 'url("resources/banner-img-2.jpg")',
         'banner-1': 'url("resources/banner-img-1.jpg")',
-        'project-1': 'url("resources/project1.webp")',
-        'project-2': 'url("resources/project2.jpg")'
       },
     },
   },
