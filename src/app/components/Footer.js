@@ -13,32 +13,32 @@ function Footer() {
                         Welcome to E Pe   E Pe is a fintech platform providing Investment Consultation and Recharge & Bill Payment services through our Mobile application based on Android and IOS. At E Pe, we believe in the power of collective investment to transform the real estate landscape. Our platform brings together investors and opportunities, creating a seamless bridge between dreams and reality. Empowering individuals to connect, collaborate, and contribute to each other's success. We belie....<a className='font-bold text-green-600 hover:text-gray-600' href='/about-us'>Read More</a>
                     </p>
                 </div>
-                <div>
-                    <h2 className='text-[#00056c] font-bold uppercase'>our products</h2>
-                    <p className='uppercase hover:text-blue-600 cursor-pointer'>bbps</p>
-                    <p className='capitalize hover:text-blue-600 cursor-pointer'>Consultation</p>
-                    <p className='capitalize hover:text-blue-600 cursor-pointer'>real estate investment</p>
-                    <p className='capitalize hover:text-blue-600 cursor-pointer'>real estate</p>
+                <div className='pb-3'>
+                    <h2 className='text-[#00056c] font-bold uppercase pb-5'>our products</h2>
+                    <p className='uppercase hover:text-blue-600 cursor-pointer pb-3'>bbps</p>
+                    <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>Consultation</p>
+                    <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>real estate investment</p>
+                    <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>real estate</p>
                 </div>
                 <div>
-                    <h2 className='text-[#00056c] font-bold uppercase' >quick links</h2>
-                    <p className='capitalize hover:text-blue-600 cursor-pointer'>home</p>
-                    <p className='capitalize hover:text-blue-600 cursor-pointer'>about us</p>
-                    <p className='capitalize hover:text-blue-600 cursor-pointer'>career</p>
-                    <p className='capitalize hover:text-blue-600 cursor-pointer'>contact us</p>
-                    <p className='capitalize hover:text-blue-600 cursor-pointer'>sitemap</p>
+                    <h2 className='text-[#00056c] font-bold uppercase pb-5' >quick links</h2>
+                    <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>home</p>
+                    <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>about us</p>
+                    <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>career</p>
+                    <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>contact us</p>
+                    <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>sitemap</p>
                 </div>
                 <div>
-                    <h2 className='text-[#00056c] font-bold uppercase'>legal</h2>
-                    <p className='capitalize hover:text-blue-600 cursor-pointer'>terms & conditions</p>
-                    <p className='capitalize hover:text-blue-600 cursor-pointer'>privacy policy</p>
-                    <p className='capitalize hover:text-blue-600 cursor-pointer'>security policy</p>
-                    <p className='capitalize hover:text-blue-600 cursor-pointer'>legal disclaimer</p>
-                    <p className='capitalize hover:text-blue-600 cursor-pointer'>grievance redressal policy</p>
+                    <h2 className='text-[#00056c] font-bold uppercase pb-5'>legal</h2>
+                    <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>terms & conditions</p>
+                    <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>privacy policy</p>
+                    <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>security policy</p>
+                    <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>legal disclaimer</p>
+                    <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>grievance redressal policy</p>
                     </div>
-                <div>
+                {/* <div>
                     <h2 className='text-[#00056c] font-bold uppercase'>social</h2>
-                </div>
+                </div> */}
             </div>
             <div className='container flex flex-row justify-between mx-auto py-5 border border-t-white'>
                 <div>Copyright © 2023, E Pe

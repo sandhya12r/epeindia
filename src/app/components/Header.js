@@ -8,15 +8,15 @@ function Header() {
   const menuOptions = getMenuOptions()
   const headerTop = getHeaderTop()
   return (
-    <div className='py-4 px-4'>
-      <div className='container mx-auto flex text-sm'>
-        <p className='flex-1'>{headerTop.message}</p>
-        <div className='flex-1 flex flex-row gap-10'>
+    <div className='py-4 px-4 bg-gray-200'>
+      <div className='container mx-auto flex text-sm justify-between border border-b-white px-2 pb-2'>
+        <p className=''>{headerTop.message}</p>
+        <div className='flex flex-row gap-10'>
           <p >{headerTop.phone}</p>
           <p>{headerTop.email}</p>
         </div>
       </div>
-      <div className='container flex flex-row justify-between items-center mx-auto'>
+      <div className='container flex flex-row pt-2 justify-between items-center mx-auto'>
         <div>
           <Image src="https://epeindia.in/assets/designer/themes/default/images/epe.png" width={155} height={50} alt="E Pe" loading="lazy" />
         </div>
