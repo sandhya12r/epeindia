@@ -8,7 +8,7 @@ function Header() {
   const menuOptions = getMenuOptions()
   const headerTop = getHeaderTop()
   return (
-    <div className='bg-header-gradient py-4 px-4'>
+    <div className='py-4 px-4'>
       <div className='container mx-auto flex text-sm'>
         <p className='flex-1'>{headerTop.message}</p>
         <div className='flex-1 flex flex-row gap-10'>
