@@ -22,7 +22,7 @@ function Header() {
         </div>
         <div className='flex flex-row gap-2'>
           {menuOptions.map(option => (
-            <Link className='capitalize font-gray-800 px-6 py-3 rounded-full hover:bg-[#00056c] hover:text-white last:border-2 last:border-[#00056c]' href={option.href}>{option.title}</Link>
+            <Link className='capitalize font-gray-800 px-6 py-3 rounded-full hover:bg-black hover:text-white last:border-2 last:border-black' href={option.href}>{option.title}</Link>
           ))}
         </div>
       </div>
