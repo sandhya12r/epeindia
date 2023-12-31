@@ -4,8 +4,8 @@ import React from 'react'
 function Footer() {
     return (
         <div className='bg-gray-200 py-4'>
-            <div className='container flex flex-row justify-between mx-auto'>
-                <div>
+            <div className='container flex flex-row justify-between mx-auto py-10'>
+                <div className='max-w-sm'>
                     <Image src="https://epeindia.in/assets/designer/themes/default/images/epe.png" width={155} height={50} alt="E Pe" loading="lazy" />
 
                     <h2 className='text-[#00056c] font-bold uppercase py-4 '>about e pe</h2>
@@ -20,7 +20,7 @@ function Footer() {
                     <p className='capitalize hover:text-blue-600 cursor-pointer'>real estate investment</p>
                     <p className='capitalize hover:text-blue-600 cursor-pointer'>real estate</p>
                 </div>
-                <div className='capitalize'>
+                <div>
                     <h2 className='text-[#00056c] font-bold uppercase' >quick links</h2>
                     <p className='capitalize hover:text-blue-600 cursor-pointer'>home</p>
                     <p className='capitalize hover:text-blue-600 cursor-pointer'>about us</p>
@@ -28,14 +28,14 @@ function Footer() {
                     <p className='capitalize hover:text-blue-600 cursor-pointer'>contact us</p>
                     <p className='capitalize hover:text-blue-600 cursor-pointer'>sitemap</p>
                 </div>
-                <div className='capitalize'>
+                <div>
                     <h2 className='text-[#00056c] font-bold uppercase'>legal</h2>
                     <p className='capitalize hover:text-blue-600 cursor-pointer'>terms & conditions</p>
                     <p className='capitalize hover:text-blue-600 cursor-pointer'>privacy policy</p>
                     <p className='capitalize hover:text-blue-600 cursor-pointer'>security policy</p>
                     <p className='capitalize hover:text-blue-600 cursor-pointer'>legal disclaimer</p>
                     <p className='capitalize hover:text-blue-600 cursor-pointer'>grievance redressal policy</p>
-                </div>
+                    </div>
                 <div>
                     <h2 className='text-[#00056c] font-bold uppercase'>social</h2>
                 </div>
