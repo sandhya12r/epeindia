@@ -3,7 +3,7 @@ import React from 'react'
 function InquiryForm() {
   return (
     <div className='container mx-auto py-10 flex flex-col items-center justify-center'>
-        <h3 className='text-3xl font-bold text-center mb-10'>BOOK Your Investment Consultation <span>Call Now</span></h3>
+        <h3 className='text-3xl font-bold text-center mb-10'>BOOK Your Investment Consultation <span className='uppercase text-[#00056c]'>Call Now!</span></h3>
         <form className='border-black border-2 flex flex-col max-w-3xl w-full shadow-sm px-12 py-10 gap-4'>
             <input type='text' className='border border-black border-1 w-full px-3 py-2 bg-white' placeholder='Name *' required />
             <input type='number' className='border border-black border-1 w-full px-3 py-2 bg-white' placeholder='Mobile Number *' required/>
