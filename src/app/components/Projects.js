@@ -10,7 +10,7 @@ function Projects() {
             <div className='flex flex-col items-center pb-10 px-40 justify-center'>
                 <div className='bg-gray-200 flex items-center justify-center rounded-md'>
                     <Image src={'https://epeindia.in/assets/designer/themes/default/images/estate-ico1.jpg'} height={200} width={200} alt='' className='px-2'/>
-                    <p className='text-lg px-10 text-gray-600 font-bold py-4'><p>RESIDENTIAL</p>RESIDENTIAL Investing in residential projects in India can be an attractive option given the country's growing ...<a className='font-bold text-green-600 hover:text-gray-600' href='/about-us'>Read More</a> </p>
+                    <div className='text-lg px-10 text-gray-600 font-bold py-4'><p>RESIDENTIAL</p>RESIDENTIAL Investing in residential projects in India can be an attractive option given the country's growing ...<a className='font-bold text-green-600 hover:text-gray-600' href='/about-us'>Read More</a> </div>
                 </div>
             </div>
             <div className='flex flex-col items-center pb-10 px-40 justify-center'>

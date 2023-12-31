@@ -36,11 +36,8 @@ function Footer() {
                     <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>legal disclaimer</p>
                     <p className='capitalize hover:text-blue-600 cursor-pointer pb-3'>grievance redressal policy</p>
                     </div>
-                {/* <div>
-                    <h2 className='text-[#00056c] font-bold uppercase'>social</h2>
-                </div> */}
             </div>
-            <div className='container flex flex-row justify-between mx-auto py-5 border border-t-white'>
+            <div className='container flex flex-row justify-between mx-auto pt-5 border border-t-white'>
                 <div>Copyright © 2023, E Pe
                     All rights reserved.</div>
                 <div>
